@@ -7,7 +7,7 @@ def generate_password():
         if length < 1:
             password_var.set("Length must be greater than 0")
             return
-        characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#*&"
         password = ""
         
         for i in range(length):  
